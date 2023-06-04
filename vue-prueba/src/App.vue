@@ -1,12 +1,12 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-import ExampleSelective from './components/ExampleSelective.vue'
+import ExampleFor from './components/ExampleFor.vue'
 // import CounterOption from './components/CounterOption.vue'
 </script>
 
 <template>
-  <ExampleSelective />
+  <ExampleFor />
 </template>
 
 <style scoped>
