@@ -7,24 +7,24 @@ interface ICountry {
 
 let countries:Ref<Array<ICountry>> = ref([
   {
-    'code': 'es',
-    'name': 'Spain'
+    code: 'es',
+    name: 'Spain'
   },
   {
-    'code': 'en',
-    'name': 'Uk'
+    code: 'en',
+    name: 'Uk'
   },
   {
-    'code': 'fr',
-    'name': 'France'
+    code: 'fr',
+    name: 'France'
   },
   {
-    'code': 'it',
-    'name': 'Italy'
+    code: 'it',
+    name: 'Italy'
   },
   {
-    'code': 'pt',
-    'name': 'Portugal'
+    code: 'pt',
+    name: 'Portugal'
   },
 
 ])
