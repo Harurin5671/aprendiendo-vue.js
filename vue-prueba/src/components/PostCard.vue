@@ -16,10 +16,10 @@ import PostBtn from './PostBtn.vue'
 </template>
 
 <style scoped>
-  .post-card {
-    border-radius: 15px;
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #ccc;
-  }
+.post-card {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
 </style>

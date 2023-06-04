@@ -33,6 +33,4 @@ export default {
   methods: { ... }       // Functions
   mounted() { ... }      // Mounted hook (lifecycle)
 }
-
-
 */
