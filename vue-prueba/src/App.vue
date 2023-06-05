@@ -1,12 +1,12 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-import ClassBind from './components/ClassBind.vue'
+import ModelForm from './components/ModelForm.vue'
 // import CounterOption from './components/CounterOption.vue'
 </script>
 
 <template>
-  <ClassBind />
+  <ModelForm />
 </template>
 
 <style scoped>
