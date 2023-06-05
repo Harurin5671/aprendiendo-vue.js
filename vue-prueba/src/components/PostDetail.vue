@@ -1,29 +1,39 @@
-<script lang="ts">
+<script lang="ts" setup>
 // sin usar setup
-import { defineComponent, ref, type Ref } from 'vue';
-export default defineComponent({
-  name: 'PostDetail',
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
-    content: {
-      type: String,
-      required: false,
-      default: 'No hay contenido'
-    }
-  },
-  emits: ['sayHi'],
-  setup(props, { emit }) {
-    const handleClick = () => {
-      emit('sayHi', message.value)
-    }
-    let message:Ref<string> = ref('')
-    return { props, handleClick, message }
-  }
+// import { defineComponent, ref, type Ref } from 'vue';
+// export default defineComponent({
+//   name: 'PostDetail',
+//   props: {
+//     title: {
+//       type: String,
+//       required: true
+//     },
+//     content: {
+//       type: String,
+//       required: false,
+//       default: 'No hay contenido'
+//     }
+//   },
+//   emits: ['sayHi'],
+//   setup(props, { emit }) {
+//     const handleClick = () => {
+//       emit('sayHi', message.value)
+//     }
+//     let message:Ref<string> = ref('')
+//     return { props, handleClick, message }
+//   }
+// })
+//con el setup
+import { type Ref, ref } from 'vue'
+const props = defineProps({
+  title: String,
+  content: String
 })
-
+const emit = defineEmits(['sayHi'])
+const handleClick = () => {
+  emit('sayHi', message.value)
+}
+let message:Ref<string> = ref('')
 </script>
 
 <template>
