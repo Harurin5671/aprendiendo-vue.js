@@ -1,6 +1,6 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "prueba/PostBtn.vue.ts", "prueba/PostCard.vue.ts", "prueba/PostContainer.vue.ts", "prueba/PostDetail.vue.ts", "prueba/PostList.vue.ts", "prueba/ComputedExample.vue.ts", "prueba/CounterComposition.vue.ts", "prueba/CounterOption.vue.ts", "prueba/CyCleComposition.vue.ts", "prueba/CycleOption.vue.ts", "prueba/ExampleFor.vue.ts", "prueba/ExampleSelective.vue.ts", "prueba/ModelForm.vue.ts", "prueba/ClassBind.vue.ts"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
