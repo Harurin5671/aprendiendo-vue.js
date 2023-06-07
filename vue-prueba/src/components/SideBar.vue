@@ -35,7 +35,7 @@ import DrawerWork from './DrawerWork.vue'
 }
 
 .div_vació {
-  height:55vh;
+  height: 55vh;
 }
 
 .container-actions {

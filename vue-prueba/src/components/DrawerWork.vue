@@ -1,8 +1,7 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
-    <div class="prueba">
+  <div class="drawer">
     <h1 class="h1">Explorer</h1>
     <div>
       <h3>
@@ -52,7 +51,7 @@
 </template>
 
 <style scoped>
-.prueba {
+.drawer {
   position: fixed;
   width: 256px;
   top: 3.15rem;

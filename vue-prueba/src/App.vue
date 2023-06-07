@@ -1,16 +1,16 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-import WorkProgram from './components/WorkProgram.vue'
+import PreCode from './components/PreCode.vue'
 // import CounterOption from './components/CounterOption.vue'
 </script>
 
 <template>
-  <WorkProgram />
+  <PreCode />
 </template>
 
 <style>
-body { 
+body {
   height: 100vh;
 }
 </style>

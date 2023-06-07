@@ -44,13 +44,13 @@ import image from '../../public/77626612.jpeg'
   margin: 0 15px 0 0;
 }
 .perfil_btn {
- border: 1px solid rgb(100, 100, 100);
- background-color: rgb(180, 180, 180);
- border-radius: 4px;
- padding: 4px;
+  border: 1px solid rgb(100, 100, 100);
+  background-color: rgb(180, 180, 180);
+  border-radius: 4px;
+  padding: 4px;
 }
 .actions {
-  border-left:1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
   border-right: 1px solid rgb(0, 0, 0);
   display: flex;
   flex-wrap: wrap;
@@ -85,7 +85,7 @@ import image from '../../public/77626612.jpeg'
   cursor: pointer;
 }
 .publish {
-  border: 1px solid rgb(195, 195, 195)
+  border: 1px solid rgb(195, 195, 195);
 }
 .upgrade {
   background-color: #0f8fff;

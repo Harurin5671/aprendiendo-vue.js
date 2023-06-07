@@ -31,7 +31,7 @@ const handleClick = () => {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0 , .2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .container_user {
@@ -82,7 +82,7 @@ const handleClick = () => {
 
 .btn {
   position: relative;
-  left: .9rem;
+  left: 0.9rem;
   background-color: transparent;
   border: 0;
 }
@@ -103,4 +103,5 @@ const handleClick = () => {
   font-size: 15px;
   font-weight: 600;
   margin-right: 5px;
-}</style>
+}
+</style>
